@@ -28,7 +28,7 @@
 - Be comfortable navigating between folders on the command line.
 - Run JavaScript on the command line using Node.js and use basic variables.
 
->Last class, we worked on using basic commands in the terminal, writing JavaScript, and working with Git and GitHub. Check with students to make sure that everyone is comfortable with the materials covered in the last class.
+[comment]: <> (>Last class, we worked on using basic commands in the terminal, writing JavaScript, and working with Git and GitHub. Check with students to make sure that everyone is comfortable with the materials covered in the last class.)
 
 >Take a look at some simple keyboard shortcuts to practice: [CLI Shortcuts](https://gist.github.com/alexpchin/01caa027b825d5f98871)
 
@@ -59,7 +59,7 @@ We'll now elaborate on Strings, Integers, and Floats (the others will come later
 
 JavaScript contains a standard library of objects, including Array, Date, and Math, as well as a core set of language elements, such as operators, control structures, and statements; client-side JavaScript extends this core language by providing objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events, such as mouse clicks, form input, and page navigation.
 
->Note: This is a good point to provide examples of browser-based JavaScript applications. Open an example [application form](https://generalassemb.ly/applications/new/javascript-development) on the General Assembly website and pull up the source code to show students how client-side JavaScript works.
+[comment]: <> (>Note: This is a good point to provide examples of browser-based JavaScript applications. Open an example [application form]&#40;https://generalassemb.ly/applications/new/javascript-development&#41; on the General Assembly website and pull up the source code to show students how client-side JavaScript works.)
 
 *Citation: [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)*
 
@@ -86,10 +86,13 @@ We don’t yet know what type of data we're working with, so let’s ask the com
   ```
   `typeof()` returns a string with the type of the operand, or expression of the object you're looking at.
 
-  >Note: At this point we haven't explained exactly what objects are. Provide a brief overview of objects as a collection of properties, and of a property as an association between a key and a value. Objects in JavaScript are used in two ways:
-    >1. As simple structured data store, similar to arrays—the main difference being that instead of accessing values by index, we access them by a key.
-    >2. As a fundamental programming paradigm that helps us structure and categorize our code.
-  >More about objects in the second half of this class.
+[comment]: <> (  >Note: At this point we haven't explained exactly what objects are. Provide a brief overview of objects as a collection of properties, and of a property as an association between a key and a value. Objects in JavaScript are used in two ways:)
+
+[comment]: <> (    >1. As simple structured data store, similar to arrays—the main difference being that instead of accessing values by index, we access them by a key.)
+
+[comment]: <> (    >2. As a fundamental programming paradigm that helps us structure and categorize our code.)
+
+[comment]: <> (  >More about objects in the second half of this class.)
 
 #### Part 2: Numbers
 
@@ -636,7 +639,7 @@ smallNums
 => [1, 3]
 ```
 
-#### Part 5: ‘Array.map( )’
+#### Part 5: `Array.map( )`
 
 The `.map()` method creates a new array with the results of calling a provided function on every element in this array.
 [[Source](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)]
@@ -670,7 +673,7 @@ In the [starter code](starter-code/arrays.js), you'll find an array.js file. Use
 <a name="lab2"></a>
 ## Homework: Madlibs (10 min)
 
-> **Note:** The Mad Libs homework exercise requires more advanced techniques, such as functions and DOM manipulation. In this class, you should walk students through the starter code and explain the goals of the exercise **but let them know that they will not yet have the skills to complete it**. The due date for the exercise should be set for some point after Lesson 6 (Intro to the DOM and jQuery). The idea is to give students a preview of what the first assignment will entail. If students would like to read about and practice more advanced topics before lesson 6, they should feel free to do so. [Instructions for students](starter-code/madlib-with-loops/instructions.md) are provided along with the starter code.
+[comment]: <> (> **Note:** The Mad Libs homework exercise requires more advanced techniques, such as functions and DOM manipulation. In this class, you should walk students through the starter code and explain the goals of the exercise **but let them know that they will not yet have the skills to complete it**. The due date for the exercise should be set for some point after Lesson 6 &#40;Intro to the DOM and jQuery&#41;. The idea is to give students a preview of what the first assignment will entail. If students would like to read about and practice more advanced topics before lesson 6, they should feel free to do so. [Instructions for students]&#40;starter-code/madlib-with-loops/instructions.md&#41; are provided along with the starter code.)
 
 For this assignment, you'll create your own Startup Generator app. Open the files in the [madlib with loops folder](starter-code/madlib-with-loops) and start by reading the "instructions.md" file. You'll learn how to use helper methods and for loops. We have provided some starter code; while we haven't covered functions and DOM manipulation yet, this is a good chance for you to challenge yourself and get a head start on these topics.
 
